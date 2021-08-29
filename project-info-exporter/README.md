@@ -1,6 +1,11 @@
 ### project-info-exporter
 
 ----
+
+Export your project information, like name, version and dependencies, with `project-info-exporter` plugin.
+
+####  Using plugin
+
 1. add plugin in pom.xml;
 ```
 <build>
