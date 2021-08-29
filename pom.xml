@@ -35,4 +35,19 @@
         </dependency>
     </dependencies>
 
+    <scm>
+        <developerConnection>
+            scm:git:https://github.com/emmanuelneri/maven-plugins.git
+        </developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub</name>
+            <url>https://maven.pkg.github.com/emmanuelneri/maven-plugins</url>
+        </repository>
+    </distributionManagement>
+
 </project>
