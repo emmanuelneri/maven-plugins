@@ -49,5 +49,4 @@
             <url>https://maven.pkg.github.com/emmanuelneri/maven-plugins</url>
         </repository>
     </distributionManagement>
-
 </project>
