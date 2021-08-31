@@ -60,7 +60,6 @@
         </developerConnection>
         <tag>HEAD</tag>
     </scm>
-
     <distributionManagement>
         <repository>
             <id>github</id>
