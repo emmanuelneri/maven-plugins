@@ -23,6 +23,8 @@ jobs:
         with:
           java-version: '16'
           distribution: 'adopt'
+      - name: Install
+        run: mvn clean install
       - name: Configure Git user
         run: |
           git config user.email "actions@github.com"

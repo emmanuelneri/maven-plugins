@@ -20,7 +20,7 @@ Export your project information, like name, version and dependencies, with `proj
 	</build>
 ```
 
-2. run `mvn br.com.emmanuelneri:project-info-exporter:1.0-SNAPSHOT:export` inside project dir;
+2. run `mvn br.com.emmanuelneri:project-info-exporter:1.1:export` inside project dir;
 3. get file in `{projectDir}/target/classes/project-info.json`.
 ```
 {
