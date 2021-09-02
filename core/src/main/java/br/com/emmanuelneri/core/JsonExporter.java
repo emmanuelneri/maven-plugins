@@ -8,7 +8,7 @@ import java.io.IOException;
 
 /**
  * Exporter implementation any object (T) to Json file
- * @param <T>
+ * @param <T> : any object param
  */
 public class JsonExporter<T> {
 
