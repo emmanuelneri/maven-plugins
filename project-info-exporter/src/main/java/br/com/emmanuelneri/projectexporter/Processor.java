@@ -9,6 +9,11 @@ import org.apache.maven.plugins.annotations.Mojo;
 import org.apache.maven.plugins.annotations.Parameter;
 import org.apache.maven.project.MavenProject;
 
+/**
+ * Project Info processor
+ *
+ * process maven information to export project-info.json
+ */
 @Mojo(name = "export", defaultPhase = LifecyclePhase.COMPILE)
 public class Processor extends AbstractMojo {
 
@@ -18,7 +23,7 @@ public class Processor extends AbstractMojo {
     private MavenProject project;
 
     @Override
-    public void execute() throws MojoExecutionException, MojoFailureException {
+    public void execute() {
         getLog().info("starting project exporter");
         getLog().info("project: " + project.getArtifactId());
 

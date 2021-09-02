@@ -15,6 +15,11 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLClassLoader;
 
+/**
+ * Spring Boot processor
+ *
+ * process compiled code to export Spring Boot information
+ */
 @Mojo(name = "export", defaultPhase = LifecyclePhase.COMPILE)
 public class Processor extends AbstractMojo {
 
@@ -24,7 +29,7 @@ public class Processor extends AbstractMojo {
     private MavenProject project;
 
     @Override
-    public void execute() throws MojoExecutionException, MojoFailureException {
+    public void execute() {
         getLog().info("starting springboot exporter");
         getLog().info("project: " + project.getArtifactId());
 
