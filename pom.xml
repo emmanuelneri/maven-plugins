@@ -4,7 +4,7 @@
 
     <groupId>br.com.emmanuelneri</groupId>
     <artifactId>maven-plugins</artifactId>
-    <version>1.4-SNAPSHOT</version>
+    <version>1.5-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <modules>
