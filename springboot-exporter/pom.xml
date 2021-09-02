@@ -11,6 +11,8 @@
     <packaging>maven-plugin</packaging>
 
     <properties>
+        <maven.compiler.source>16</maven.compiler.source>
+        <maven.compiler.target>16</maven.compiler.target>
         <springboot.version>2.5.4</springboot.version>
     </properties>
 
